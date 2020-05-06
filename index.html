@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Piotr Niewiadomski</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <h1>Portfolio</h1>
+    </div>
+  </header>
+
+  <div class="two columns menu">
+
+    <input id="all" type="button" name="filter" value="Wszystkie" />
+    <input id="illustrations" type="button" name="filter" value="Ilustracje" />
+    <input id="posters" type="button" name="filter" value="Plakaty" />
+    <input id="typography" type="button" name="filter" value="Typografia" />
+    <input id="packaging" type="button" name="filter" value="Opakowania" />
+    
+  </div>
+  
+  <section class="nine columns" id="zdjecia">
+
+<!-- Main img--------------------------- -->
+    <div class="ten columns">
+    <figure class="twelve columns mainphoto poster" data category="ilustracje">
+      <img src="images/balon.gif" alt="To jest pierwsza miniatura portfolio." class="gif">
+      <figcaption>
+        <h4>Lorem Ipsum</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s</p>
+      </figcaption>
+    </figure>
+  </div>
+<!-- Small img------------------------- -->
+
+    <figure class="five columns all poster" data category="ilustracje">
+    <div class="zoom">
+      <img src="images/fala.jpg" alt="To jest pierwsza miniatura portfolio." width="100%">
+    </div>
+      <figcaption>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s</p>
+      </figcaption>
+    </figure>
+
+    <figure class="five columns all poster" data category="ilustracje">
+      <div class="zoom">
+      <img src="images/fuji.jpg" alt="To jest druga miniatura portfolio." width="100%">
+      </div>
+      <figcaption>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s</p>
+      </figcaption>
+    </figure>
+
+  </section>
+
+  <footer class="twelve columns">
+      <ul class="lista">
+        <li class="contact-name">Piotr Niewiadomski</li>
+        <li class="contact-phone">(+48) 600-700-800</li>
+        <li class="contact-email">piotrek@niewiadomski.pl</li>
+        <li class="witam">
+          <!-- <a href="#"><img src="images/dribble.png" id="dribble"></a> -->
+          <a href="#">
+            <img src="images/dribble-blank.png" id="dribble"
+            onmouseover="this.src='images/dribble.png'"
+            onmouseout="this.src='images/dribble-blank.png'"
+            border="0" alt=""/></a>
+          <a href="#">
+            <img src="images/facebook-blank.png" id="facebook"
+            onmouseover="this.src='images/facebook.png'"
+            onmouseout="this.src='images/facebook-blank.png'"
+            border="0" alt=""/></a>
+          <a href="#">
+            <img src="images/twitter-blank.png" id="twitter"
+            onmouseover="this.src='images/twitter.png'"
+            onmouseout="this.src='images/twitter-blank.png'"
+            border="0" alt=""/></a></li>
+  </footer>
+  
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
